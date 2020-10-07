@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body{
+    background-color: #f5f2e5;
+    background-image: url(./images/bg.png);
+    background-repeat: no-repeat;
+    background-position: 30px 80px;
+}
+h1 {
+    background-color: #faa;
+    color: #0bd;
+}
+h2 {
+    color: royalblue;
+}
+p {
+    color: rgba(10, 130, 165, .5);
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: justify;
+    /* border-width: thick;
+    border-style: solid;
+    border-color: tomato; */
+    border-bottom: 2px solid #0bd;
+}
+div {
+    /* background: goldenrod; */
+    width: 800px;
+    /* height: 300px; */
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 30px 20px 50px 80px;
+    padding: 50px; */
+    /* border-width: 1px 4px 8px 12px;
+    border-style: dashed groove ridge inset;
+    border-color: tan #0bd tomato #000; */
+    /* border: 5px dotted tomato; */
+}
+ul {
+    list-style: square;
+    /* list-style-position: outside; */
+    list-style: url(images/star.png) outside;
+    /* list-style-image: url(images/star.png); */
+}
+ol {
+    list-style: hiragana;
+    list-style-position: inside;
+}
+.blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+p.blue{
+    color: royalblue;
+}
+.item{
+    background: #0bd;
+    color: #fff;
+    width: 180px;
+    margin: 5px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+}
+.container3{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+}
+/*ここはコメントでございます*/
